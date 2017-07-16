@@ -10,9 +10,9 @@
 	<artifactId>users</artifactId>
 
 	<scm>
-		<connection>scm:git:https://github.com/mumairofficial/scm-blank.git</connection>
-		<developerConnection>scm:git:https://github.com/mumairofficial/scm-blank.git</developerConnection>
-		<url>https://github.com/mumairofficial/scm-blank</url>
+		<connection>scm:git:https://github.com/mumairofficial/scm-test.git</connection>
+		<developerConnection>scm:git:https://github.com/mumairofficial/scm-test.git</developerConnection>
+		<url>https://github.com/mumairofficial/scm-test</url>
 	</scm>
 
 	<build>
@@ -55,6 +55,7 @@
 								<goals>
 									<goal>add</goal>
 									<goal>checkin</goal>
+									<goal>checkout</goal>
 								</goals>
 								<configuration>
 									<basedir>./</basedir>
